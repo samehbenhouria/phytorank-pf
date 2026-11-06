@@ -1,0 +1,14 @@
+{
+  "v2": {
+    "n_top500": 500,
+    "top500_avec_organisme": 99,
+    "top50_avec_organisme": 5
+  },
+  "dedoublonne_v2": {
+    "n": 100,
+    "avec_organisme": 15,
+    "rangs_origine_max": 237
+  },
+  "famille_quinine_CNP0144043_meilleur_rang_v2": 61,
+  "manquants_full": []
+}

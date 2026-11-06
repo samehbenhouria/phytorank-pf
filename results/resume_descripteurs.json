@@ -1,0 +1,22 @@
+{
+  "n_total": 738794,
+  "n_valides": 738790,
+  "n_invalides": 4,
+  "controle_lignes": 738794,
+  "qed_comparaison": {
+    "n": 738790,
+    "pearson": 0.9999309435782023,
+    "spearman": 0.9997930062443988,
+    "ecart_abs_median": 0.0026543374232320775,
+    "ecart_abs_moyen": 0.0025945000574931947,
+    "ecart_abs_p95": 0.004759427637589679,
+    "ecart_abs_max": 0.16065916856944262,
+    "frac_ecart_le_0_01": 0.9999282610755424,
+    "frac_ecart_gt_0_1": 2.7071292248135464e-06
+  },
+  "mw_comparaison": {
+    "n": 738790,
+    "ecart_abs_median": 0.0020000000017716957,
+    "ecart_abs_max": 0.010000000000047748
+  }
+}

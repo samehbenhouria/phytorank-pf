@@ -1,0 +1,8 @@
+{
+  "version": "v2 \u2014 correctif nouveaut\u00e9 du 05/11 (Murcko RDKit des deux c\u00f4t\u00e9s) ; remplace la v1 dont la nouveaut\u00e9 comparait des cha\u00eenes de deux g\u00e9n\u00e9rateurs",
+  "n_scor\u00e9es": 738790,
+  "formule_score": "0,55*P_cal + 0,20*QED + 0,15*(1-viol/4) + 0,10*nouveaut\u00e9",
+  "score_max": 0.9370577156248823,
+  "score_top50_min": 0.8748504124127149,
+  "part_nouveaute_top50": 1.0
+}

@@ -1,0 +1,130 @@
+{
+  "protocole": "scaffold split Bemis-Murcko, assertion de disjonction, \u00e9tiquette = pChEMBL m\u00e9dian >= seuil, RF 300 arbres, graine 42",
+  "n_molecules": 31652,
+  "n_invalides": 0,
+  "split": {
+    "train": 22156,
+    "val": 4748,
+    "test": 4748
+  },
+  "resultats": [
+    {
+      "seuil": 6,
+      "representation": "ecfp",
+      "prevalence_test": 0.6067818028643639,
+      "roc_auc_test": 0.8700090186949683,
+      "pr_auc_test": 0.9076124494362366,
+      "precision_at_50": 0.98,
+      "precision_at_100": 0.99,
+      "ef_1pct": 1.6129742184672875,
+      "brier_brut": 0.14703300724880422
+    },
+    {
+      "seuil": 6,
+      "representation": "desc",
+      "prevalence_test": 0.6067818028643639,
+      "roc_auc_test": 0.7443629438165608,
+      "pr_auc_test": 0.8204119517545019,
+      "precision_at_50": 0.98,
+      "precision_at_100": 0.98,
+      "ef_1pct": 1.6129742184672875,
+      "brier_brut": 0.19893443516661
+    },
+    {
+      "seuil": 6,
+      "representation": "combine",
+      "prevalence_test": 0.6067818028643639,
+      "roc_auc_test": 0.8710140705399152,
+      "pr_auc_test": 0.9092812442778165,
+      "precision_at_50": 0.98,
+      "precision_at_100": 0.98,
+      "ef_1pct": 1.6129742184672875,
+      "brier_brut": 0.14770889016025618,
+      "brier_platt": 0.14203208196448203,
+      "fiabilite_platt": [
+        {
+          "bac": 0,
+          "n": 193,
+          "proba_moy": 0.07567201591269247,
+          "freq_obs": 0.06217616580310881
+        },
+        {
+          "bac": 1,
+          "n": 474,
+          "proba_moy": 0.1501623451789924,
+          "freq_obs": 0.11814345991561181
+        },
+        {
+          "bac": 2,
+          "n": 464,
+          "proba_moy": 0.24912051824716172,
+          "freq_obs": 0.2543103448275862
+        },
+        {
+          "bac": 3,
+          "n": 421,
+          "proba_moy": 0.34924529796538195,
+          "freq_obs": 0.3586698337292161
+        },
+        {
+          "bac": 4,
+          "n": 353,
+          "proba_moy": 0.4496127752400206,
+          "freq_obs": 0.5070821529745042
+        },
+        {
+          "bac": 5,
+          "n": 341,
+          "proba_moy": 0.5509575863754433,
+          "freq_obs": 0.5278592375366569
+        },
+        {
+          "bac": 6,
+          "n": 343,
+          "proba_moy": 0.6527427781442028,
+          "freq_obs": 0.717201166180758
+        },
+        {
+          "bac": 7,
+          "n": 383,
+          "proba_moy": 0.7510030086486845,
+          "freq_obs": 0.7780678851174935
+        },
+        {
+          "bac": 8,
+          "n": 536,
+          "proba_moy": 0.8554646489668045,
+          "freq_obs": 0.8376865671641791
+        },
+        {
+          "bac": 9,
+          "n": 1240,
+          "proba_moy": 0.9448095555565315,
+          "freq_obs": 0.9612903225806452
+        }
+      ]
+    },
+    {
+      "seuil": 5,
+      "representation": "combine",
+      "prevalence_test": 0.8974304970513901,
+      "roc_auc_test": 0.9083526777173417,
+      "pr_auc_test": 0.9876454337472798,
+      "precision_at_50": 1.0,
+      "precision_at_100": 1.0,
+      "ef_1pct": 1.1142924196198074,
+      "brier_brut": 0.06391873429294576
+    },
+    {
+      "seuil": 7,
+      "representation": "combine",
+      "prevalence_test": 0.2622156697556866,
+      "roc_auc_test": 0.877888946594256,
+      "pr_auc_test": 0.7521894523161385,
+      "precision_at_50": 0.98,
+      "precision_at_100": 0.95,
+      "ef_1pct": 3.7325130308467913,
+      "brier_brut": 0.11749445147483666
+    }
+  ]
+}
