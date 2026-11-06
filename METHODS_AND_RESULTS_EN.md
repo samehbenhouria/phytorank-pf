@@ -113,9 +113,9 @@ the screening, single-generator comparison. Independent check by the
 project thread: 1.0000 agreement of the novelty column over the 251
 shared identifiers with the correction's audit file. Consequences:
 top-50 overlap v1/v2 = **0/50**; the quinine family (CNP0144043), the
-v1's top hit, comes out at **rank 61** in v2 — it stays in the elite
-through its activity, QED and Lipinski terms, with a novelty bonus of
-exactly zero, which is presentable and verified. **Top-50 v2
+v1's top hit, comes out at **rank 61** in v2, with no novelty bonus at
+all (its novelty term is 0), carried by its calibrated probability
+(0.9699) and its QED (0.9352). **Top-50 v2
 novelty = 1.0, this time in the corrected sense**: the new top of the
 ranking is made of scaffolds genuinely absent from ChEMBL. Every novelty
 claim based on v1 is withdrawn; the v1 files remain on disk as an audit
